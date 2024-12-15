@@ -108,3 +108,7 @@
 .mr-2 {
   margin-right: 0.5rem;
 }
+
+.ml-auto {
+  margin-left: auto;
+}

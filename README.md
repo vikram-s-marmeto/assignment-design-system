@@ -7,13 +7,12 @@ This design system provides a set of highly crafted, reusable UI components that
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Folder Structure](#folder-structure)
 - [Reset CSS and Global Styles](#reset-css-and-global-styles)
 - [Color System](#color-system)
 - [Typography](#typography)
 - [Spacing](#spacing)
-- [Component Structure](#component-structure)
-- [State Management](#state-management)
-- [Example Usage](#example-usage)
+- [Components](#component-documentation)
 
 ## Introduction
 
