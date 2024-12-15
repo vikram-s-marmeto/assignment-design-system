@@ -1,0 +1,22 @@
+:root {
+  --red: 220, 53, 69;
+  --green: 46, 133, 64;
+  --yellow: 255, 170, 10;
+
+  --primary-color: 255, 255, 255;
+  --secondary-color: 108, 108, 108;
+  --neutral-color: 206, 212, 218;
+  --error-color: var(--red);
+  --success-color: var(--green);
+  --text-color: 0, 0, 0;
+
+  /* Define RGB color channels */
+  --primary-button-color: 0, 0, 0;
+  --secondary-button-color: 108, 108, 108;
+  --success-button-color: var(--green);
+  --warning-button-color: var(--yellow);
+  --error-button-color: var(--red);
+
+  /* Text Color */
+  --button-text-color: 255, 255, 255;
+}

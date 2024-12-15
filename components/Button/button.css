@@ -1,0 +1,118 @@
+/* Base styles */
+.btn {
+  padding: 0.5rem 1.2rem;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  transition: transform, background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.btn:not(:disabled):active {
+  transform: scale(0.99);
+}
+.btn:disabled {
+  opacity: 0.3;
+}
+.btn:disabled:hover {
+  background: initial;
+}
+.btn-rounded {
+  border-radius: 9999px;
+}
+
+/* Primary */
+.btn-primary {
+  background-color: rgba(var(--primary-button-color), 1);
+  color: rgba(var(--button-text-color), 1);
+}
+.btn-primary:hover {
+  background-color: rgba(var(--primary-button-color), 0.85);
+}
+
+/* Secondary */
+.btn-secondary {
+  background-color: rgba(var(--secondary-button-color), 1);
+  color: rgba(var(--button-text-color), 1);
+}
+.btn-secondary:hover {
+  background-color: rgba(var(--secondary-button-color), 0.85);
+}
+
+/* Outline */
+.btn-outline {
+  border-color: rgba(var(--primary-button-color), 1);
+}
+
+.btn-outline:hover {
+  background-color: rgba(var(--primary-button-color), 0.1);
+}
+
+/* Link */
+.btn-link:hover {
+  text-decoration-line: underline;
+}
+
+/* Success */
+.btn-success {
+  background-color: rgba(var(--success-button-color), 1);
+  color: rgba(var(--button-text-color), 1);
+}
+.btn-success:hover {
+  background-color: rgba(var(--success-button-color), 0.85);
+}
+
+/* Warning */
+.btn-warning {
+  background-color: rgba(var(--warning-button-color), 1);
+  color: rgba(var(--button-text-color), 1);
+}
+.btn-warning:hover {
+  background-color: rgba(var(--warning-button-color), 0.85);
+}
+
+/* Error */
+.btn-error {
+  background-color: rgba(var(--error-button-color), 1);
+  color: rgba(var(--button-text-color), 1);
+}
+.btn-error:hover {
+  background-color: rgba(var(--error-button-color), 0.85);
+}
+
+/* Sizes */
+.btn-sm {
+  padding: 0.35rem 0.8rem;
+  font-size: 75%;
+}
+
+.btn-md {
+  padding: 0.65rem 1.3rem;
+  font-size: 110%;
+}
+
+.btn-lg {
+  padding: 0.75rem 1.6rem;
+  font-size: 125%;
+}
+
+.rounded-sm {
+  border-radius: var(--radius-sm);
+}
+
+.rounded-md {
+  border-radius: var(--radius-md);
+}
+
+.rounded-lg {
+  border-radius: var(--radius-lg);
+}
+
+.rounded-full {
+  border-radius: var(--radius-full);
+}
+
+.rounded-none {
+  border-radius: 0;
+}

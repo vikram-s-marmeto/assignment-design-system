@@ -1,0 +1,22 @@
+body {
+  font-family: "Inter";
+  font-size: var(--text-base);
+  max-width: 1280px;
+  color: rgba(var(--text-color), 1);
+}
+
+.component-container {
+  padding: var(--spacing-base);
+}
+
+.buttons-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.components-container {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+}

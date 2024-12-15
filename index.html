@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      fetch("layout/head.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.head.innerHTML += data;
+        });
+    </script>
+    <link
+      rel="stylesheet"
+      href="/components/Button/button.css"
+      type="text/css"
+    />
+    <title>Design System</title>
+  </head>
+  <body>
+    <div class="components-container">
+      <a
+        class="btn btn-outline rounded-none"
+        href="./components/Button/button.html"
+        >Button</a
+      >
+      <a class="btn btn-outline rounded-none" href="./components/Card/card.html"
+        >Card</a
+      >
+      <a
+        class="btn btn-outline rounded-none"
+        href="./components/Input/input.html"
+        >Input</a
+      >
+    </div>
+  </body>
+</html>

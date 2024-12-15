@@ -1,0 +1,53 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:where(a) {
+  text-decoration-line: none;
+}
+:where(a:visited) {
+  color: inherit;
+}
+
+:where(input, button, textarea, select, label) {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Button Reset */
+:where(button) {
+  all: unset;
+  display: inline-block;
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  cursor: pointer;
+}
+
+:where(button):focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px #389ffa;
+}
+
+:where(button):disabled {
+  cursor: not-allowed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}

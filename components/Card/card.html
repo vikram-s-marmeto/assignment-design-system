@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./card.css" />
+    <link rel="stylesheet" href="../Button/button.css" />
+    <script>
+      fetch("/layout/head.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.head.innerHTML += data;
+        });
+    </script>
+    <title>Card</title>
+  </head>
+  <body>
+    <div class="component-container">
+      <div
+        tabindex="0"
+        class="card"
+        role="region"
+        aria-labelledby="card-title"
+        aria-describedby="card-description"
+      >
+        <div class="card-image">
+          <img
+            src="https://marmeto.com/cdn/shop/files/re-black-logo.png?v=1716890348&width=600"
+            alt="Marmeto logo"
+          />
+        </div>
+        <h3 class="card-title" id="card-title">Marmeto</h3>
+        <h4 class="card-subtitle">Ecommerce Enabler</h4>
+        <p class="card-description" id="card-description">
+          As architects of over 1400+ successful ecommerce stores, we stand as a
+          preferred partner for ambitious mid-market brands and enterprises.
+        </p>
+        <a href="https://marmeto.com" target="_blank" class="btn btn-primary"
+          >Contact Us</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
